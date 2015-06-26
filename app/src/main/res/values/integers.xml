@@ -1,0 +1,7 @@
+<resources>
+      <integer-array name="not_used">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+</resources>

@@ -61,14 +61,10 @@ public class MainActivity extends ActionBarActivity {
             SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
             String location = preferences.getString(getString(R.string.pref_location_key),
                     getString(R.string.pref_location_default));
-
             String uri = "geo:0,0?q=" + location;
             Uri geoLocation = Uri.parse(uri);
             ShowMap(geoLocation);
-
-
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
